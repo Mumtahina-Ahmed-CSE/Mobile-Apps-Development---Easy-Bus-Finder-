@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "417822543926",
+    "firebase_url": "https://easybusfinder-a9df2.firebaseio.com",
+    "project_id": "easybusfinder-a9df2",
+    "storage_bucket": "easybusfinder-a9df2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417822543926:android:ee08bcc55fe6ebfe",
+        "android_client_info": {
+          "package_name": "com.example.ahsan.easybusfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417822543926-j799veqm03cm87hfddgo87915hmhtg49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpMOu5lSazirwza6pO4YIRZW4QftHWXN4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

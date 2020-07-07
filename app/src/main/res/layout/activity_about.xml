@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahsan.easybusfinder.AboutActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:id="@+id/text_view_bus_info"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:text="Easy Bus Finder is an android app that recommends public transport for desired places in Chittagong City. It requires the current location and destination to be provided to suggest local buses. There is a section called Bus Information that holds location information for all local buses. This app is based on Google map that would help the user to find his current location and also provides each bus routes for specific buses. User may also rate this app. However, we think that this app will serve general people with a comfortable transportation system."
+            />
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <com.hitomi.cmlibrary.CircleMenu
+        android:id="@+id/circle_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="280dp" />
+</RelativeLayout>
